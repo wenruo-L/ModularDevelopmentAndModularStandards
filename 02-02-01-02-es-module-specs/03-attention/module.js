@@ -7,7 +7,11 @@ var age = 18
 
 // 这里的 `{ name, hello }` 不是一个对象字面量，
 // 它只是语法上的规则而已
-export { name, age }
+// 实际上导出一个成员的引用
+export {
+  name,
+  age
+}
 
 // export name // 错误的用法
 
